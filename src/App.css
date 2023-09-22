@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,13 +7,13 @@ html,
 body {
   background-color: #090924;
 }
-.App{
+.App {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding-top: 15px;
-  font-family: Lato,sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .free-contenedor {
@@ -24,10 +24,15 @@ body {
   margin: 20px;
 }
 
-.free{
- width: 50vw;
+.free {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
 }
 .contenedor-principal {
+  margin-top: -100px;
   height: 550px;
   min-width: 600px;
   display: flex;
